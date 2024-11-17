@@ -428,10 +428,8 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-if st.button("Visit Asteroid App Website"):
-    js_code = """
-        <script>
-            window.open("https://asteroid.streamlit.app", "_blank");
-        </script>
-    """
-    st.markdown(js_code, unsafe_allow_html=True)
+# Add a button at the bottom to redirect to the external website
+# Add a link button at the bottom to redirect to the external website
+if st.button("Visit Asteroid Alien Attack"):
+    st.write("[Click here to play and ML powered astroid alien game!](https://asteroid.streamlit.app)")
+
